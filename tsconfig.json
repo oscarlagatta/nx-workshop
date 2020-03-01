@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ihats/auth": ["libs/auth/src/index.ts"]
+      "@ihats/auth": ["libs/auth/src/index.ts"],
+      "@ihats/material": ["libs/material/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

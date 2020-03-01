@@ -1,4 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -11,6 +14,7 @@ export const appRoutes: Route[] = [{ path: 'auth', children: authRoutes }];
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes, {
       initialNavigation: 'enabled'
     }),
